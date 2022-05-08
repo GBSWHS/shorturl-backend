@@ -1,0 +1,8 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "shorturl-backend"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-jwyz6ujaroz2"
+s3_prefix = "shorturl-backend"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []

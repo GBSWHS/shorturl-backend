@@ -23,6 +23,10 @@ const redirect = (url: string): CloudFrontResponse => ({
                 key: 'Location',
                 value: url,
             },
+            {
+                key: 'Access-Control-Allow-Origin',
+                value: '*'
+            }
         ],
     },
 });
